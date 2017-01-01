@@ -1,16 +1,16 @@
 ---
 layout: inner
-title: Microservices and data science
+title: Micro-services for Data Science
 date: 2016-05-12 12:00:00
 categories: data science
 tags: microservices java datascience data science
 ---
 
-### After dealing with systems which broke at the slightest sign of change.
-We had to think radically about what systems design mean in the context of data science.
-The obvious things like moving to nosql data stores was done, however, monolithic design lead to failures which were almost always major bugs.
-In comes "QUEUES", an elegant way to break up a huge system into smaller subsystems which can be generic/reliable and fault tolerant.
+### eCommerce industry data is a mix of good data (relational) and unstructured data like web clickstream or ad campaigns.
+This inherit split forces a data scientist to setup elaborate ETL's and cleaning jobs which in all probability ends up being a waste of precious resources.
 
-Microservices is not new, however writing up with the help of queues made my life so much more fun!
-I now have services, each one talking to a specific exchange/queue based on the algorithm requirements, execute and push the results back to queue for further processing.
+Problems of this nature can't have a single solution and we at Staples are trying multiple frameworks to help achieve speed an efficiency. Micro-services is not new for software industry or for that matter data science, there are a lot of interesting ideas/implementations by some really good people and all of those follow the rule of being small, robust, self sustaining and fault tolerant systems.
 
+How small of a system is small enough is kind of tricky and varies based on the what you plan to do with it. Eg - Let's assume we have a ftp service, should it monitor the FTP? or download the file? or may be it can do more or less, This is an important design consideration, probably "THE" most important consideration which will impact applications built on top of the service.
+
+Our problem of managing structured, unstructured data together for modeling and ML problems lead to solutions used in software industries namely QUEUES (Kafka/Rabbitmq). Queues have very interesting properties, they are fault tolerant, have easier disastror 
