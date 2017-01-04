@@ -1,5 +1,5 @@
 ---
-layout: inner
+layout: page
 title: Micro-services for Data Science
 date: 2016-09-20 12:00:00
 categories: datascience

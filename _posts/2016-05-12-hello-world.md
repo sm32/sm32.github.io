@@ -1,5 +1,5 @@
 ---
-layout: inner
+layout: page
 title: Hello World
 date: 2016-05-12 12:00:00
 categories: test

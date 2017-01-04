@@ -1,5 +1,5 @@
 ---
-layout: inner
+layout: page
 title: Visitor recognition using Graph Database (Neo4j)
 date: 2016-10-20 12:00:00
 categories: datascience
@@ -15,8 +15,8 @@ Customers in their bid to remain "anonymous/new" try everything from incognito t
 
 Our motivation was to understand if data science can improve over existing methods and can it be done at scale for extended durations, not so surprisingly the answer is yes for both.
 
-#### Customer Attributes
-A single identifier (like email) doesn’t tell who the customer (eg - it could a person using someone else's machine for few mins), it's measly information. Thankfully tagging solutions pitch in with huge amounts of questionable meta-data about the user (questionable - because nothing about web clickstream is accurate) like the plugins, fonts, browsers, ip's etc, over a period of time it builds a customer profile.
+### Customer Attributes
+A single identifier (like email) doesn’t tell who the customer ( eg - it could a person using someone else's machine for few mins), it's measly information. Thankfully tagging solutions pitch in with huge amounts of questionable meta-data about the user (questionable - because nothing about web clickstream is accurate) like the plugins, fonts, browsers, ip's etc, over a period of time it builds a customer profile.
 
 ### Graph Database
 Thinking more, the problem itself is a graph problem, how can i find connected sub-graphs (cookies connected to cookies via meta data)? and so is the data! So obviously I wanted to plug the data into a graph DB, we chose [Neo4j](https://neo4j.com/) ([Giraph](http://giraph.apache.org/) was an equal contender).
@@ -39,7 +39,7 @@ With easy part over, I wanted to check if graph connections were correct. A quic
 Looks about right, the next step in the process is to identify sub graphs. Sub graphs in neo4j - turns out is not as simple as said and done. This needs java intervention, neo4j doesn't support complete graph scan, there is not syntax in Cypher (at least at the time of this project) which would support calculating sub graphs by scanning the complete graph. [Repo](https://github.com/SreekanthMahesala/neo-plugins) for plugins.
 
 The recognition rate calculated using
- $$UNIQUE COOKIES HAVING IDENTIFIER/TOTAL UNIQUE COOKIES$$
+ $$UNIQUE\_COOKIES\_HAVING\_IDENTIFIER/TOTAL\_UNIQUE\_COOKIES$$  
 increased by 10%, which was unheard of using traditional methods!
 
 ### Summary

@@ -5,16 +5,16 @@
 
 # Setup
 title:               sreekanth mahesala
-tagline:             'toString(thoughts)'
-description:         'I’m Sreekanth Mahesala, this space will communicate my experiences with data science that have made a difference. Feel free to rant and rave, I’m open to criticism and a firm believer of disagreement - it’s the only way forward!' 
-url:
+tagline:             'toString(<i>thoughts</i>)'
+description:         'I’m Sreekanth Mahesala, Senior Data Science Engineer @ <a href="http://www.staples.com">Staples</a>, this space will communicate my experiences with data science that have made a difference. Feel free to rant and rave, I’m open to criticism and a firm believer of disagreement - it’s the only way forward!'
+url:                 www.mahesala.com
 baseurl:             ''
 paginate:            5
 
 # About/contact
 author:
   name:              Sreekanth Mahesala
-  url:
+  url:               www.mahesala.com
   email:             sreekanth.mahesala@gmail.com
 
 # Custom vars
