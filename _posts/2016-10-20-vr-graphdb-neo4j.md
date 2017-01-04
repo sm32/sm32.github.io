@@ -4,6 +4,7 @@ title: Visitor recognition using Graph Database (Neo4j)
 date: 2016-10-20 12:00:00
 categories: data science
 tags: neo4j java datascience data science cookie visitor recognition
+use_math: true
 ---
 
 ### Visitor recognition - An inference approach to consolidate multiple identifiers and improve recognition.
