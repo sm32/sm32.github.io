@@ -2,7 +2,7 @@
 layout: inner
 title: Micro-services for Data Science
 date: 2016-09-20 12:00:00
-categories: data science
+categories: datascience
 tags: microservices java datascience data science
 ---
 

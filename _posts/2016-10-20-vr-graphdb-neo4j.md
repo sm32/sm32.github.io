@@ -2,7 +2,7 @@
 layout: inner
 title: Visitor recognition using Graph Database (Neo4j)
 date: 2016-10-20 12:00:00
-categories: data science
+categories: datascience
 tags: neo4j java datascience data science cookie visitor recognition
 use_math: true
 ---
