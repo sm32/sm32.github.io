@@ -7,11 +7,11 @@ title: Home
   {% for post in paginator.posts %}
   <!-- <div class="post"> -->
     <h4 class="post-title">
-      <a href="{{ site.baseurl }}/{{ post.url }}">
+      <a href="{{ site.baseurl }}{{ post.url }}" style="text-decoration : none;">
         {{ post.title }}
       </a>
     </h4>
-
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
     <!-- {{ post.content }} -->
