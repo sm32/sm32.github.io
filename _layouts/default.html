@@ -11,7 +11,7 @@
          content to avoid any CSS collisions with our real content. -->
     <div class="wrap">
       <div class="masthead">
-        <div class="container">
+        <div class="container content">
           <h3 class="masthead-title">
             <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
             <small>{{ site.tagline }}</small>
@@ -33,13 +33,18 @@
               {% endif %}
             </div>
           </h3>
-        </div>
-      </div>
 
-      <div class="container content">
-        <main>
-          {{ content }}
-        </main>
+          <main>
+            {{ content }}
+          </main>
+
+          <footer class="footer">
+            <small>
+              &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved. Built with Jekyll and Mathjax.
+            </small>
+          </footer>
+
+        </div>
       </div>
     </div>
 
