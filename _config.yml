@@ -28,3 +28,5 @@ facebook_username: sreekanth.mc
 
 # Gems
 gems: [jekyll-paginate]
+
+theme: jekyll-theme-minimal
