@@ -1,0 +1,79 @@
+### Keybase proof
+
+I hereby claim:
+
+  * I am sm32 on github.
+  * I am mahesala (https://keybase.io/mahesala) on keybase.
+  * I have a public key whose fingerprint is 53E5 24AB 30DD CC34 4E20  6972 0FCE 84CA FA6B 9C47
+
+To claim this, I am signing this object:
+
+```json
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101b66a6eb86b1e4c41ef2bd6c6871eca6f000716ebe7c48721bb091cc06064162c0a",
+            "fingerprint": "53e524ab30ddcc344e2069720fce84cafa6b9c47",
+            "host": "keybase.io",
+            "key_id": "0fce84cafa6b9c47",
+            "kid": "0101b66a6eb86b1e4c41ef2bd6c6871eca6f000716ebe7c48721bb091cc06064162c0a",
+            "uid": "455d2babd6c7ca7a78a803278b08a519",
+            "username": "mahesala"
+        },
+        "service": {
+            "name": "github",
+            "username": "sm32"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1494600255,
+    "expire_in": 157680000,
+    "prev": "2527d575e49064d6af576cbc69005be1b8e54de931f6cc600226b56d7683829e",
+    "seqno": 7,
+    "tag": "signature"
+}
+```
+
+with the key [53E5 24AB 30DD CC34 4E20  6972 0FCE 84CA FA6B 9C47](https://keybase.io/mahesala), yielding the signature:
+
+```
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.70
+Comment: https://keybase.io/crypto
+
+yMIaAnicrZJbSFRRFIZnyikyBUsi06g8BWYMus9tn3MmJE16SSsjMLvouPc+++hR
+Z8bmYomIPSVllGX5oDgVRSRqFzGjHuyCFRoWZGgFQRYUkoRFkmVZ+1g9RK89bdba
+3//zr8XqjZ5ti7THHdnb17I1PGZ/cLsuZNuxqH9dFYd9eiXnquJK6cxDy3QaCLpL
+TZ1zcYAHPIYQQYpViHkqEYmnhoB1SKCq8JQgaAAAFJ4BVCGSqgg8xkDjCQEQQImH
+AgGIc3KG6S2i/nK/6Q0yW1mksiAhLAJdJ0SUJCoAqCkCMAhVJYIMBLFGJIUJi30B
+S8HCYRSgKaaP9Vjh/hXvX/4/5w7N2EmyrAsYWXKFIAUpKlKBKCgqBiqSec0CA9Tv
+RR7KaA8qpgFUhrhqJ8e6FSah1mJ//xaZweIQ/lsR8IiCRQcry61yL8Xu30I3Nr06
+2x3jK6g/YPq8nItnJAmalpKXNAkCIMiyk6P7yk0/dZsWIStQZfMBJ1fupxXMUpAF
+RZcVmUoaG0+HyGAIwQRqAMiY8lilsqRTTeQNSIhlKUAsQ535iKqgUc4aZY/Xx7kU
+FhMVWaHNIi8KhvyUq75za3eEzR5pm+OYZd2ULXJezJ9LCwtzf2wrseecuvYupNd3
+99ofavOfp3WHE/c3vs7OOOgbm+5ISb7XcLU7gr800J69tv6Zb+WuyHPxp6tzW2hH
+c3pn1NqnpyY3xCc1vU9McE41zEm/XHk++sqrNQ1mYPnHvDxvT7h1PO1ulmNp3tE9
+o47kqcVZdc2OjbHXF3zu6m0bGHrSdmK77Y0haUNpF7pGVhfmN45snvJ4ejKWhVNz
+tqxPVEprEyo/vOxfcn96wLhYe2wi/3hmbi7vOuD/VFJSI/kqUsZoZsHg6IpDb1tH
+b9TUZ4rOnFWOwa+pj5S8b1+iYiZrF77IGm47ezL2zGnY2xT3vbNAHNa2TLT36Uk7
+Nx2+OW5/XPgT4K87Ng==
+=NpJs
+-----END PGP MESSAGE-----
+
+```
+
+And finally, I am proving ownership of the github account by posting this as a gist.
+
+### My publicly-auditable identity:
+
+https://keybase.io/mahesala
+
+### From the command line:
+
+Consider the [keybase command line program](https://keybase.io/download).
+
+```bash
+# look me up
+keybase id mahesala
+```
